@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "time-series-trasnformer-tcc"
+version = "0.1.0"
+description = ""
+authors = ["Giuseppe31-s <giuseppe31tinti@gmail.com>"]
+license = "1"
+readme = "README.md"
+packages = [{include = "time_series_trasnformer_tcc"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cookiecutter = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
