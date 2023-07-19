@@ -10,6 +10,11 @@ packages = [{include = "time_series_trasnformer_tcc"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 cookiecutter = "^2.2.3"
+jupyter = "^1.0.0"
+notebook = "^6.5.4"
+pandas = "^2.0.3"
+seaborn = "^0.12.2"
+requests = "^2.31.0"
 
 
 [build-system]
